@@ -1,0 +1,25 @@
+{
+  "title": "Simon Says",
+  "image": "simon_says_ss.jpg",
+  "summary": "Follow the flashing lights and sounds to test your memory - there's an easy mode and a hard mode. Can you make it to 20?",
+  "technologies_used": [
+    "jQuery",
+    "es6",
+    "html5",
+    "dom",
+    "css transitions"
+  ],
+  "credits": [{ 
+    "name": "Howler",
+    "link": "https://howlerjs.com/"
+  }, {
+    "name": "jQuery",
+    "link": "https://jquery.com/"
+  }, {
+    "name": "FreeCodeCamp",
+    "link": "https://www.freecodecamp.com/"
+  }, {
+    "name": "Bulma",
+    "link": "https://bulma.io"
+  }]
+}
