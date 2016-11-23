@@ -1,0 +1,38 @@
+.simon {
+  min-width: 15em;
+  min-height: 5em;
+  margin: 5px;
+}
+
+.container {
+  width: 40em;
+}
+
+.flash {
+  -moz-animation: flash 0.5s ease-out;
+  -moz-animation-iteration-count: 1;
+
+  -webkit-animation: flash 0.5s ease-out;
+  -webkit-animation-iteration-count: 1;
+
+  -ms-animation: flash 0.5s ease-out;
+  -ms-animation-iteration-count: 1;
+}
+
+@-webkit-keyframes flash {
+    0% { background-color: none; }
+    50% { background-color: #fbf8b2; }
+    100% { background-color: none; }
+}
+
+@-moz-keyframes flash {
+    0% { background-color: none; }
+    50% { background-color: #fbf8b2; }
+    100% { background-color: none; }
+}
+
+@-ms-keyframes flash {
+    0% { background-color: none; }
+    50% { background-color: #fbf8b2; }
+    100% { background-color: none; }
+}

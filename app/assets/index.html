@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Simon Says</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+<section class="hero is-fullheight">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        Simon says...
+      </h1>
+      <p class="subtitle is-5">...watch and listen to the sequence, and repeat it!
+
+      </p>
+      <article class="message" id="instruction-class">
+        <div class="message-header" id="instruction-header">
+Get started!
+        </div>
+        <div class="message-body" id="instruction-body">
+        <ul>
+          <li>1. Click 'start' to begin the sequence</li>
+          <li>2. Click 'reset' to start from zero</li>
+          <li>3. Watch your progress in the bottom right - get to 20 and you win!</li>
+          <li>4. Click 'Strict' to toggle strict mode. In strict mode, there are no second chances!</li>
+        </ul>
+        </div>
+      </article>
+      <span id="instruction"></span><br />
+      <a class="button is-primary simon" id="a"></a>
+      <a class="button is-warning simon" id="b"></a><br />
+      <a class="button is-danger simon" id="c"></a>
+      <a class="button is-success simon" id="d"></a><br />
+      <a class="button is-dark simon" id="start">Start</a>
+      <a class="button is-dark simon" id="reset">Reset</a><br />
+      <a class="button is-dark simon" id="strict">Strict mode: off</a>
+      <a class="button is-dark simon" id="current-length">0</a>
+    </div>
+  </div>
+</section>
+<div class="container">
+  <div class="content">
+
+  </div>
+</div>
+<script src="js/vendor.js"></script>
+<script src="js/app.js"></script>
+<script>
+  require('initialize')
+</script>
+</body>
+</html>
